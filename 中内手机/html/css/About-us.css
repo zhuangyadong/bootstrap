@@ -1,0 +1,45 @@
+.lanmu{
+    overflow: hidden;
+    height: 94px;
+    width: 750px;
+}
+.item{
+    height: 93px;
+    border-bottom: 1px solid #CCCCCC;
+}
+.item a{
+    width: 120px;
+    height: 93px;
+    font-size: 30px;
+    color: #333333;
+    border-bottom: 1px solid transparent;
+    display: block;
+    line-height: 93px;
+    margin: 0 auto;
+    text-align: center;
+}
+.item .selecta{
+    border-bottom: 1px solid #787AC9;
+}
+.mid{
+    width: 710px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.mid img{
+    width: 710px;
+    height: 361px;
+    float: left;
+}
+.neirong{
+    width: 660px;
+    height: 457px;
+    background: #fff;
+    float: left;
+    padding: 15px 25px;
+}
+.duan{
+    font-size: 26px;
+    color: #999999;
+    line-height: 50px;
+}

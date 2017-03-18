@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: '微软雅黑';
+}
+img{
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.wrap{
+    width: 750px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.wrapnei{
+    width: 2000px;
+    overflow: hidden;
+}
+.celan{
+    color: #fff;
+    background-color: #7879C9;
+    width: 382px;
+    float: left;
+}
+.celannei{
+    padding-top: 93px;
+}
+.fanhui{
+    font-size: 18px;
+    background: url("../images/index/fanhui.png")20px 0 no-repeat;
+    line-height: 37px;
+    padding-left: 70px;
+    cursor: pointer;
+}
+.items li{
+    height: 79px;
+    border-bottom: 1px solid #6869B0;
+    overflow: hidden;
+    cursor: pointer;
+}
+.items li i{
+    display: inline-block;
+    width: 66px;
+    height: 79px;
+    float: left;
+}
+.items li span{
+    font-size: 26px;
+    line-height: 79px;
+}
+.cl1{
+    background: url("../images/index/cl1.png")center center no-repeat;
+}
+.cl2{
+    background: url("../images/index/cl2.png")center center no-repeat;
+}
+.cl3{
+    background: url("../images/index/cl3.png")center center no-repeat;
+}
+.cl4{
+    background: url("../images/index/cl4.png")center center no-repeat;
+}
+.cl5{
+    background: url("../images/index/cl5.png")center center no-repeat;
+}
+.cl6{
+    background: url("../images/index/cl6.png")center center no-repeat;
+}
+.cl-yinlan{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 368px;
+    background: rgba(104,105,176,.9);
+    display: none;
+    z-index: 100;
+}
+.cl-yinlan ul{
+    padding-top: 130px;
+}
+.cl-yinlan li a {
+    color: #fff;
+    font-size: 26px;
+    height: 79px;
+    display: block;
+    line-height: 79px;
+    border-bottom: 1px solid #7879C9;
+    padding-left: 84px;
+}
+.zhenglan{
+    width: 750px;
+    padding-bottom: 120px;
+    background: url("../images/bg.png")center center no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.head{
+    height: 220px;
+    background: rgba(255,255,255,.5);
+    overflow: hidden;
+}
+.head1{
+    height: 125px;
+    border-bottom: 1px solid #787AC9;
+    padding: 0 20px;
+}
+.sangang{
+    background: url("../images/index/sangang.png")0 0 no-repeat;
+    width: 37px;
+    height: 33px;
+    float: left;
+    margin-top: 46px;
+}
+.logo{
+    width: 156px;
+    height: 85px;
+    float: left;
+    margin: 20px 0 0 32px;
+}
+.rexian{
+    width: 230px;
+    height: 76px;
+    float: right;
+    margin-top: 25px;
+    background: url("../images/index/rexian.png")0 0 no-repeat;
+}
+.foot{
+    width: 750px;
+    height: 110px;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-left: -375px;
+    overflow: hidden;
+    z-index: 100;
+}
+.foot li{
+    float: left;
+    width: 187.5px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.foot li span{
+    font-size: 20px;
+    color: #b1b1b1;
+    text-align: center;
+    display: block;
+    padding-top: 15px;
+}
+.ft1{
+    width: 36px;
+    height: 44px;
+    background: url("../images/index/sprite-foot.png")0 0 no-repeat;
+    display: block;
+    margin: 0 auto;
+}
+.ft2{
+    width: 44px;
+    height: 44px;
+    background: url("../images/index/sprite-foot.png")0 -44px no-repeat;
+    display: block;
+    margin: 0 auto;
+}
+.ft3{
+    width: 36px;
+    height: 44px;
+    background: url("../images/index/sprite-foot.png")-36px 0 no-repeat;
+    display: block;
+    margin: 0 auto;
+}
+.ft4{
+    width: 44px;
+    height: 44px;
+    background: url("../images/index/sprite-foot.png")-44px -44px no-repeat;
+    display: block;
+    margin: 0 auto;
+}
+.foot li .footbian{
+    background-image: url("../images/index/sprite-foot2.png");
+}
+.foot li .zizi{
+    color: #787ac9;
+}
