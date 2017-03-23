@@ -1,0 +1,19 @@
+.ucHeaderBox .ucBtnBox .myCoupons{
+	filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#0FFFFFFF,endColorStr=#0FFFFFFF);
+}
+.ucHeaderBox .ucBtnBox .myPoint{
+	filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#0FFFFFFF,endColorStr=#0FFFFFFF);
+}
+.ucHeaderBox .ucBtnBox .myInfo{
+	filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#0FFFFFFF,endColorStr=#0FFFFFFF);
+}
+.ucHeader{
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/usercenter/uc_t_bg.png',sizingMethod='scale');
+}
+.ucHeaderBox{
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#1EFFFFFF,endcolorstr=#1EFFFFFF);
+}
+img{
+	border: none;
+}

@@ -1,0 +1,326 @@
+/*reset*/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+:after,:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+table{border:0;margin:0;border-collapse:collapse;}
+body{ font-family: "Arial", "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;overflow-x: hidden;}
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form{margin:0;}
+a:hover{ text-decoration: none; }
+a{cursor: pointer;text-decoration: none; }
+ol,ul{margin:0; padding:0; list-style: none;}
+input{border: none;padding: 0;}
+button,input{border: none; outline: none;}
+i,em{font-style: normal;}
+img{border: none;}
+/*clearfloat*/
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{_height:1%;}
+.w_1200{
+	width: 1200px;
+	margin: auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.color_r{
+	color: #c81623;
+}
+.top{
+	background-color: #f1f1f1;
+}
+.topBox{
+	height: 40px;
+	line-height: 39px;
+}
+.topBox a,.topBox span{
+	font-size: 12px;
+}
+.topBox .welcome{
+	color: #4d4d4d;
+}
+.topBox .fr a{
+	color: #4d4d4d;
+	padding-left: 30px;
+}
+.topBox .loginBtn{
+	padding-right: 10px;
+}
+.topBox .regBtn{
+	margin-left: 10px;
+}
+.topBox .hotLine{
+	margin-left: 30px;
+}
+.topBox .addFavBtn{
+	background: url(../images/public/addfav.png) no-repeat 10px center;
+}
+.topBox .myOrderBtn{
+	background: url(../images/public/order_ico.png) no-repeat 10px center;
+}
+.topBox .uCBtn{
+	background: url(../images/public/uc.png) no-repeat 10px center;
+}
+.topBanner{
+	width: 100%;
+	height: 80px;
+	background-color: #fb3249;
+}
+.topBanner a{
+	display: block;
+	width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+}
+.topBanner a img{
+	width: 100%;
+	height: 100%;
+}
+.header{
+	padding: 30px 0 45px;
+}
+.header .logoBox{
+	width: 350px;
+	height: 65px;
+}
+.header .logoBox img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.header .searchBox{
+	width: 611px;
+	height: 48px;
+	border: 2px solid #c81623;
+	margin-left: 55px;
+	margin-top: 5px;
+	position: relative;
+}
+.header .searchBox input{
+	display: block;
+	width: 100%;
+	*width: auto;
+	height: 100%;
+	font-size: 20px;
+	text-indent: .8em;
+}
+.header .searchBox button{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 96px;
+	height: 45px;
+	*height: 50px;
+	background-color: #c81623;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+.header .searchBox .keyWordBox{
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+	right: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.header .searchBox .keyWordBox a{
+	font-size: 14px;
+	color: #333;
+	margin-right: 35px;
+}
+.header .cartBtn{
+	margin: 12px 0 0 57px;
+	*margin-left: 50px;
+	width: 125px;
+	*width: 81px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	padding-left: 42px;
+	background: url(../images/public/cart_ico.png) no-repeat 11px center #f9f9f9;
+	border: 1px solid #dfdfdf;
+	color: #666;
+}
+.header .cartBtn .cartNum{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	position: relative;
+	top: -16px;
+	width: 20px;
+	height: 20px;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	line-height: 20px;
+	background-color: #c81623;
+	border-radius: 9px 9px 9px 0;
+}
+.navBorderB{
+	border-bottom: 2px solid #c81623;
+	height: 55px;
+	position: relative;
+	z-index: 800;
+}
+.homeNav .firstNav{
+	position: relative;
+	width: 215px;
+	height: 55px;
+	line-height: 55px;
+	background-color: #b1191a;
+}
+.homeNav .firstNav>span{
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	background: url(../images/public/firstnav.png) no-repeat 20px center;
+	cursor: pointer;
+}
+.homeNav .second{
+	position: absolute;
+	top: 55px;
+	*top: 57px;
+	left: 0;
+	right: 0;
+	z-index: 900;
+	display: none;
+}
+.homeNav .second>li{
+	height: 41px;
+	line-height: 41px;
+	text-indent: 20px;
+	background: url(../images/public/arrow_r.png) no-repeat 190px center #c81623;
+	cursor: pointer;
+}
+.homeNav .second>li:hover{
+	background-color: #fff;
+}
+.homeNav .second>li>span{
+	color: #fff;
+	font-size: 14px;
+}
+.homeNav .second>li:hover>span{
+	color: #c81623;
+}
+.homeNav .thirdNav{
+	position: absolute;
+	left: 215px;
+	top: 0;
+	bottom: 0;
+	z-index: 900;
+	width: 770px;
+	background-color: #fff;
+	color: #c81623;
+	display: none;
+}
+.homeNav .thirdNav li{
+	float: left;
+	margin-right: 5px;
+}
+.homeNav .homeNavR{
+	height: 50px;
+	line-height: 50px;
+	margin-top: 5px;
+}
+.homeNav .homeNavR li{
+	float: left;
+	width: 140px;
+}
+.homeNav .homeNavR a{
+	display: block;
+	height: 100%;
+	font-size: 18px;
+	color: #333;
+	text-align: center;
+}
+.footer{
+	background-color: #fafafa;
+	border-top: 1px solid #dcdcdc;
+}
+.footer .mapBox{
+	height: 330px;
+	*height: 250px;
+	padding-top: 38px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.footer .mapBox>li{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.footer .mapBox>li img{
+	display: block;
+	width: 90px;
+	height: 90px;
+	margin: 0 auto 25px;
+}
+.footer .mapBox ul li{
+	height: 25px;
+	line-height: 25px;
+}
+.footer .mapBox ul li a{
+	font-size: 12px;
+	color: #6d6d6d;
+}
+.footer .mapBox ul li:first-child{
+	height: 53px;
+	line-height: 53px;
+	font-size: 18px;
+}
+.footer .mapBox>li+li ul{
+	border-left: 1px solid #dcdcdc;
+}
+.footer .bottom .codeBox{
+	margin-left: 67px;
+	margin-top: 27px;
+	width: 120px;
+	height: 120px;
+}
+.footer .bottom .codeBox img{
+	width: 100%;
+	height: 100%;
+}
+.footer .bottom .codeTips{
+	margin-left: 25px;
+	margin-top: 55px;
+	width: 130px;
+	font-size: 16px;
+	color: #333;
+}
+.footer .bottom .bBtnBox{
+	margin-left: 95px;
+	margin-top: 65px;
+	text-align: center;
+}
+.footer .bottom .bBtnBox li{
+	float: left;
+	padding: 0 10px;
+}
+.footer .bottom .bBtnBox li+li{
+	border-left: 1px solid #dcdcdc;
+}
+.footer .bottom .bBtnBox li a{
+	font-size: 13px;
+	color: #8c8c8c;
+}
+.footer .bottom .copyRight{
+	font-size: 12px;
+	color: #8c8c8c;
+	margin-top: 17px;
+}
+.footer .bottom{
+	padding-bottom: 25px;
+}

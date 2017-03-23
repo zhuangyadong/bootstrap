@@ -1,0 +1,475 @@
+/*顶部banner*/
+#bannerBox{
+	position: relative;
+	min-width: 1200px;
+	margin-bottom: 10px;
+}
+#bannerBox .slides li{
+	height: 533px;
+	overflow: hidden;
+}
+#bannerBox .slides li a{
+	width: 2000px;
+	height: 100%;
+	margin-left: -1000px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+#bannerBox .slides img{
+	display: block;
+	margin: 0 auto;
+	height: 100%;
+}
+#bannerBox .flex-control-nav{
+	bottom: 20px;
+	z-index: 10;
+}
+#bannerBox .flex-control-paging li a{
+	background: rgba(255,255,255,1);
+}
+#bannerBox .flex-control-paging li a.flex-active,.flex-control-paging li a:hover{
+	background: rgba(103,196,255,0.7);
+}
+
+.homeNav .second{
+	display: block;
+}
+.main{
+	position: relative;
+	min-width: 1200px;
+}
+.bannerNews{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	z-index: 800;
+	width: 600px;
+	height: 0;
+}
+.bannerNews>div{
+	margin-left: 385px;
+	width: 215px;
+	background-color: #f4f4f4;
+}
+.bannerNews,.bannerNews a{
+	font-size: 12px;
+	color: #666;
+}
+.bannerNews h3{
+	height: 42px;
+	line-height: 42px;
+	font-weight: 500;
+	padding: 0 10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.bannerNews h3 a{
+	float: right;
+}
+.bannerNews ul{
+	padding: 10px;
+}
+.bannerNews ul li{
+	line-height: 30px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+
+}
+.bannerNews .p_1{
+	margin-top: 11px;
+	border: 1px solid #e5e5e5;
+	height: 205px;
+	overflow: hidden;
+}
+.bannerNews .p_2{
+	margin-top: 14px;
+	*margin-top: 12px;
+	border: 1px solid #e5e5e5;
+	height: 205px;
+	overflow: hidden;
+}
+.bannerNews .p_3{
+	margin-top: 14px;
+	*margin-top: 12px;
+	height: 84px;
+	overflow: hidden;
+}
+.bannerNews .p_3 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.bannerNews .p_3 img{
+	width: 100%;
+	height: 100%;
+}
+.bannerAd_1{
+	height: 125px;
+	margin-bottom: 10px;
+}
+.bannerAd_1 li{
+	float: left;
+	width: 215px;
+	height: 125px;
+}
+.bannerAd_1 li+li{
+	margin-left: 31px;
+}
+.bannerAd_1 img{
+	width: 100%;
+	height: 100%;
+}
+.bannerAd_2{
+	height: 65px;
+	margin-bottom: 30px;
+	background-color: #f7f7f7;
+}
+.bannerAd_2 li{
+	float: left;
+	width: 120px;
+	height: 65px;
+	padding: 13px 0;
+	display: table;
+}
+.bannerAd_2 li a{
+	height: 100%;
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.bannerAd_2 li+li a{
+	border-left: 1px dashed #e5e5e5;
+}
+.bannerAd_2 li a img{
+	display: block;
+	margin: auto;
+}
+.floorBox{
+	position: relative;
+}
+.floorBox h2{
+	height: 40px;
+	padding-left: 50px;
+	font-size: 20px;
+	color: #333;
+	background: url(../images/index/floor_ico.png) no-repeat left top;
+	border-bottom: 1px solid #b61d1d;
+}
+.floorBox h2 span{
+	float: left;
+}
+.floorBox h2 a{
+	float: right;
+	font-size: 14px;
+	color: #c90916;
+	font-weight: 500;
+	line-height: 35px;
+}
+.floorBox .floor{
+	margin-bottom: 30px;
+}
+.floorBox .floor_l{
+	width: 265px;
+	height: 473px;
+	border-left: 1px solid #e5e5e5;
+	position: relative;
+}
+.floorBox .floor_l .imgBox{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.floorBox .floor_l .imgBox img{
+	width: 100%;
+	height: 100%;
+}
+.floorBox .floor_l ul{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 500;
+}
+.floorBox .floor_l ul li{
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	width: 132px;
+	background-color: rgba(255,255,255,0.6);
+	filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#9FFFFFFF,endColorStr=#9FFFFFFF);
+}
+.floorBox .floor_l ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	color: #333;
+	font-weight: 600;
+}
+.floorBox .floor_r{
+	width: 935px;
+	*width: 934px;
+}
+.floorBox .f_slider{
+	float: left;
+	width: 466px;
+	height: 237px;
+	position: relative;
+	border-bottom: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}
+.floorBox .f_slider ul,.floorBox .f_slider li{
+	height: 100%;
+}
+.floorBox .f_slider img{
+	width: 100%;
+	height: 100%;
+}
+.floorBox .flex-control-nav{
+	z-index: 100;
+}
+.floorBox .flex-direction-nav{
+	display: none;
+}
+.floorBox .floor_r .goodsList li{
+	float: left;
+	height: 237px;
+	*height: 217px;
+	width: 233px;
+	*width: 212px;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}
+.floorBox .floor_r .goodsList .title{
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.floorBox .floor_r .goodsList .title span{
+	font-size: 16px;
+	font-weight: 600;
+	color: #333;
+	padding-left: 30px;
+	padding-right: 30px;
+	background: url(../images/index/line_l.png) no-repeat left center,url(../images/index/line_r.png) no-repeat right center;
+}
+.floorBox .floor_r .goodsList .price{
+	text-align: center;
+	font-size: 14px;
+	color: #cb0914;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.floorBox .floor_r .goodsList img{
+	display: block;
+	width: 165px;
+	height: 165px;
+	margin: auto;
+}
+.floorBox .floorAd{
+	height: 90px;
+	margin-bottom: 30px;
+}
+.floorBox .floorAd a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.floorBox .floorAd img{
+	width: 100%;
+	height: 100%;
+}
+.floorBox .floorJump{
+	position: absolute;
+	top: 40px;
+	left: -77px;
+}
+.floorBox .floorJump li.num{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #c8cacc;
+	cursor: pointer;
+}
+.floorBox .floorJump li.active{
+	background-color: #fcb5ba;
+}
+.floorBox .floorJump li.line{
+	width: 1px;
+	height: 5px;
+	margin: 5px auto;
+	background-color: #c8cacc;
+}
+/*market*/
+.bannerAds{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	z-index: 800;
+	width: 600px;
+	height: 0;
+}
+.bannerAds a{
+	display: block;
+	width: 220px;
+	height: 266px;
+	margin-left: 380px;
+	border: 1px solid #e4e4e4;
+}
+.bannerAds a+a{
+	border-top: none;
+}
+.bannerAds a img{
+	width: 100%;
+	height: 100%;
+}
+.market h2{
+	height: auto;
+	line-height: 20px;
+	padding-left: 0;
+	background: none;
+	padding-top: 32px;
+	padding-bottom: 17px;
+	height: 70px;
+	*height: 20px;
+}
+.market h2 span{
+	padding-left: 20px;
+	border-left: 3px solid #c81623;
+}
+.market .floor{
+	border-bottom: 1px solid #ededed;
+}
+.market .floorCon{
+	height: 555px;
+}
+.market .mFloor_l{
+	float: left;
+	height: 555px;
+	width: 210px;
+	position: relative;
+}
+.market .mFloor_l .imgBox{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.market .mFloor_l .imgBox img{
+	width: 100%;
+	height: 100%;
+}
+.market .mFloor_l .cartBox{
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+}
+.market .mFloor_l .cartBox li{
+	float: left;
+	width: 50%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.market .mFloor_l .cartBox li a{
+	font-size: 14px;
+	color: #fff;
+}
+.market .mFloor_m{
+	float: left;
+	height: 555px;
+	width: 792px;
+}
+.market .mFloor_m li{
+	float: left;
+	width: 198px;
+	*width: 157px;
+	height: 278px;
+	*height: 257px;
+	padding: 10px 20px;
+	position: relative;
+	border-left: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+}
+.market .mFloor_m .imgBox{
+	display: block;
+	width: 158px;
+	height: 188px;
+	*height: 158px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.market .mFloor_m .imgBox img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+.market .mFloor_m .name{
+	display: block;
+	font-size: 12px;
+	color: #333;
+	line-height: 20px;
+	height: 40px;
+	overflow: hidden;
+}
+.market .mFloor_m .price{
+	font-size: 18px;
+	color: #c81623;
+}
+.market .mFloor_m .addCart{
+	display: block;
+	width: 42px;
+	height: 42px;
+	border-radius: 21px;
+	background: url(../images/market/cartico.png) no-repeat center center #c81623;
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	z-index: 500;
+}
+
+.market .mFloor_r{
+	float: left;
+	width: 198px;
+	height: 555px;
+}
+.market .mFloor_r .imgBox{
+	display: block;
+	width: 198px;
+	height: 181px;
+	*height: 179px;
+	margin-bottom: 6px;
+}
+.market .mFloor_r .imgBox img{
+	width: 100%;
+	height: 100%;
+}
+.market .color_p h2{
+	border-bottom: 1px solid #e46486;
+}
+.market .color_p h2 span{
+	border-left: 3px solid #e46486;
+}
+.market .color_y h2{
+	border-bottom: 1px solid #ffc14a;
+}
+.market .color_y h2 span{
+	border-left: 3px solid #ffc14a;
+}
+.market .color_b h2{
+	border-bottom: 1px solid #3e7dfd;
+}
+.market .color_b h2 span{
+	border-left: 3px solid #3e7dfd;
+}

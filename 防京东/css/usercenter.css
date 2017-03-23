@@ -1,0 +1,1532 @@
+/*顶部和左侧公用*/
+.ucHeader{
+	width: 100%;
+	padding: 30px 0;
+	background: url(../images/usercenter/uc_t_bg.png) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+.main{
+	margin-bottom: 70px;
+}
+.ucHeaderBox{
+	padding: 20px;
+	background-color: rgba(255,255,255,0.15);
+	
+}
+.ucHeaderBox .userFace{
+	width: 172px;
+	height: 172px;
+	border: 4px solid #bbb7b7;
+}
+.ucHeaderBox .nameBox{
+	width: 950px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 30px;
+	color: #fff;
+}
+.ucHeaderBox .userName{
+	font-size: 18px;
+}
+.ucHeaderBox .uCHWelcom{
+	font-size: 14px;
+}
+.ucHeaderBox .lastTime{
+	font-size: 12px;
+	color: #cccccc;
+}
+.ucHeaderBox .ucBtnBox{
+	margin-top: 25px;
+	margin-left: 30px;
+}
+.ucHeaderBox .ucBtnBox li{
+	float: left;
+	margin-right: 60px;
+	width: 175px;
+}
+.ucHeaderBox .ucBtnBox li a{
+	width: 90px;
+	height: 90px;
+}
+.ucHeaderBox .ucBtnBox .myCoupons{
+	background: url(../images/usercenter/coupons.png) no-repeat center center;
+	background-color: rgba(255,255,255,0.1);
+}
+.ucHeaderBox .ucBtnBox .myPoint{
+	background: url(../images/usercenter/point.png) no-repeat center center;
+	background-color: rgba(255,255,255,0.1);
+}
+.ucHeaderBox .ucBtnBox .myInfo{
+	background: url(../images/usercenter/uc_info.png) no-repeat center center;
+	background-color: rgba(255,255,255,0.1);
+}
+.ucHeaderBox .ucBtnBox li p{
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+	line-height: 25px;
+	color: #fff;
+}
+.ucHeaderBox .ucBtnBox li p.th{
+	margin-top: 20px;
+}
+.ucLeft{
+	float: left;
+	width: 210px;
+}
+.ucLeft .titleBox{
+	width: 210px;
+	height: 90px;
+	padding-bottom: 20px;
+	border-left: 1px solid #e9e9e9;
+	border-right: 1px solid #e9e9e9;
+}
+.ucLeft .ucLIco{
+	width: 70px;
+	height: 70px;
+	background: url(../images/usercenter/ucl_title.png) no-repeat center center #b30000;
+}
+.ucLeft .ucLName{
+	width: 138px;
+	height: 70px;
+	border-top: 1px solid #e9e9e9;
+	border-bottom: 1px solid #e9e9e9;
+}
+.ucLeft .titleCn{
+	font-size: 16px;
+	font-weight: 600;
+	color: #333;
+	margin-top: 15px;
+	text-align: left;
+	margin-left: 15px;
+}
+.ucLeft .titleEn{
+	font-size: 10px;
+	color: #999;
+	text-align: left;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.ucLeft h3{
+	height: 42px;
+	line-height: 42px;
+	width: 230px;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #333;
+	background: url(../images/usercenter/ucl_bg.png) no-repeat center center;
+}
+.ucLeft ul li{
+	height: 39px;
+	line-height: 39px;
+	width: 210px;
+	padding-left: 20px;
+	border-left: 1px solid #e9e9e9;
+	border-right: 1px solid #e9e9e9;
+	background: url(../images/usercenter/left_arrow_g.png) no-repeat 95% center;
+}
+.ucLeft ul li.select,.ucLeft ul li:hover{
+	background: url(../images/usercenter/left_arrow_r.png) no-repeat 95% center;
+}
+.ucLeft ul li+li{
+	border-top: 1px solid #e9e9e9;
+}
+.ucLeft ul li a{
+	font-size: 14px;
+	color: #333;
+	-webkit-transition: color 0.3s;
+	-o-transition: color 0.3s;
+	transition: color 0.3s;
+}
+.ucLeft ul li.select a,.ucLeft ul li:hover a{
+	color: #e4393c;
+}
+.ucLeft .uclBImgBox{
+	display: block;
+	width: 210px;
+	height: 165px;
+	border: 1px solid #e9e9e9;
+}
+.ucLeft .uclBImgBox img{
+	width: 100%;
+	height: 100%;
+}
+.ucRight{
+	margin-left: 40px;
+	float: left;
+	width: 950px;
+}
+.color_o{
+	color: #ff4a00;
+}
+.ucRTitle .titleBox{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e9e9e9;
+	margin-bottom: 30px;
+}
+.ucRTitle .titlePub{
+	font-size: 16px;
+	color: #333;
+	width: 300px;
+	padding-left: 30px;
+}
+.ucRTitle .orderTitle{
+	background: url(../images/usercenter/myorder.png) no-repeat left center;
+}
+.ucRTitle .right a{
+	font-size: 14px;
+	padding: 0 20px;
+	color: #333;
+	-webkit-transition: color 0.3s;
+	-o-transition: color 0.3s;
+	transition: color 0.3s;
+}
+.ucRTitle .right a.select,.ucRTitle .right a:hover{
+	color: #e95412;
+}
+.ucRTitle .right a+a{
+	border-left: 1px solid #999;
+}
+.orderBox{
+	border: 1px solid #e9e9e9;
+	border-bottom: none;
+	border-radius: 2px;
+}
+.orderBox table{
+	width: 100%;
+}
+.orderBox .tH{
+	background-color: #fafafa;
+}
+.orderBox tr{
+	border-bottom: 1px solid #e9e9e9;
+}
+.orderBox .tH td{
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+}
+.orderBox .tH td span{
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 1px solid #e9e9e9;
+}
+.orderBox .tH td span:last-child{
+	border: none;
+}
+.orderBox .tH td.color_o{
+	padding-left: 18px
+}
+.orderBox .tH td.postTime{
+	text-align: right;
+	padding-right: 20px;
+}
+.orderBox .imgBox{
+	width: 95px;
+	height: 95px;
+	padding-top: 5px;
+}
+.orderBox .imgBox a{
+	display: block;
+	width: 85px;
+	height: 85px;
+	margin: auto;
+}
+.orderBox .nameBox{
+	width: 555px;
+	vertical-align: middle;
+	color: #333;
+	font-size: 14px;
+	border-right: 1px solid #e9e9e9;
+}
+.orderBox .nameBox a{
+	display: block;
+}
+.orderBox .orderPrice{
+	vertical-align: middle;
+	width: 120px;
+	border-right: 1px solid #e9e9e9;
+}
+.orderBox .orderPrice p{
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+}
+.orderBox .orderOption{
+	width: 180px;
+	vertical-align: middle;
+	text-align: center;
+}
+.orderBox .orderOption a{
+	display: block;
+	line-height: 25px;
+	font-size: 14px;
+	color: #333;
+}
+.orderBox .orderOption a.button{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	margin: auto;
+	color: #fff;
+	background-color: #ff4a00;
+}
+/*comment*/
+.ucRTitle .commentTitle{
+	background: url(../images/usercenter/comment_titile.png) no-repeat left center;
+}
+.commentBox{
+	width: 950px;
+}
+.commentBox table{
+	width: 100%;
+	border-left: 1px solid #e9e9e9;
+	border-right: 1px solid #e9e9e9;
+}
+.commentBox table:last-child{
+	border-bottom: 1px solid #e9e9e9;
+}
+.commentBox td{
+	border-top: 1px solid #e9e9e9;
+	text-align: center;
+	font-size: 14px;
+}
+.commentBox td a{
+	font-size: 14px;
+}
+.commentBox .tH td{
+	color: #000;
+	font-size: 14px;
+	height: 40px;
+	background-color: #fafafa;
+}
+.commentBox .cTH td{
+	padding-left: 15px;
+	text-align: left;
+	color: #6c6c6c;
+	height: 40px;
+	font-size: 12px;
+	background-color: #fafafa;
+}
+.commentBox .tB td+td{
+	border-left: 1px solid #e9e9e9;
+}
+.commentBox .tB td.imgBox{
+	width: 110px;
+	padding: 15px; 
+}
+.commentBox .tB td.imgBox a{
+	display: block;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #e9e9e9;
+}
+.commentBox .tB td.imgBox a img{
+	width: 100%;
+	height: 100%;
+}
+.commentBox .tB td.commentName{
+	text-align: left;
+	border-left: none;
+}
+.commentBox .tB td a{
+	color: #333;
+}
+.commentBox .tB td.commentTime p{
+	color: #898989;
+	font-size: 12px;
+}
+.commentBox .tB td.commentState{
+	color: #898989;
+}
+.commentBox .tB td.commentOption a{
+	display: block;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.commentBox .tB td.commentOption a.toComment{
+	height: 30px;
+	width: 120px;
+	line-height: 30px;
+	margin: auto;
+	color: #fff;
+	background-color: #ff4a00;
+}
+.commentBox .tB td.commentOption a.over{
+	background-color: #cccccc;
+}
+/*评论详情*/
+.cDesBox{
+	width: 950px;
+	height: 472px;
+	padding: 25px 50px;
+	border: 1px solid #e9e9e9;
+	position: relative;
+}
+.cDesBox .cDesTitle{
+	font-size: 18px;
+	font-weight: 600;
+	color: #333;
+	margin-bottom: 30px;
+}
+.cDesBox .cDesTitle span{
+	float: right;
+	padding-left: 20px;
+	background: url(../images/usercenter/tips.png) no-repeat left center;
+	font-size: 12px;
+	color: #999;
+	font-weight: 500;
+}
+.cDesTxt{
+	float: left;
+	width: 420px;
+	height: 180px;
+}
+.cDesTxt .cDesCon td,.cDesTxt .cDesSCon td{
+	border-top: 1px solid #e9e9e9;
+	border-right: 1px solid #e9e9e9;
+	border-left: 1px solid #e9e9e9;
+}
+.cDesTxt .cDesCon td:first-child,.cDesTxt .cDesSCon td:first-child{
+	vertical-align: top;
+	border-bottom: 1px solid #e9e9e9;
+	background-color: #efefef;
+	width: 45px;
+	padding: 5px;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+}
+.cDesTxt .cDesSCon td:last-child{
+	border-top: none;
+	border-bottom: 1px solid #e9e9e9;
+}
+.cDesTxt .cDesCon textarea{
+	display: block;
+	width: 95%;
+	margin: 0 auto;
+	height: 90px;
+	padding: 5px 0;
+	border: none;
+	border-bottom: 1px solid #e9e9e9;
+	resize: none;
+	outline: none;
+}
+.cDesTxt .cDesSCon textarea{
+	display: block;
+	width: 95%;
+	margin: auto;
+	height: 40px;
+	padding: 5px 0;
+	border: none;
+	resize: none;
+	outline: none;
+}
+.cDesTxt .imgBtn{
+	height: 47px;
+	background-color: #efefef;
+	padding: 10px;
+
+}
+.cDesTxt .imgBtn div{
+	display: inline-block;
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #ff4a00;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	position: relative;
+}
+.cDesTxt .imgBtn span{
+	padding-top: 5px;
+	margin-left: 5px;
+	font-size: 12px;
+	color: #aaa;
+}
+.cDesTxt .imgBtn div input{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 25px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+
+}
+.cDesNum{
+	width: 380px;
+	height: 180px;
+	float: right;
+}
+.cDesNum tr td:first-child{
+	width: 75px;
+	font-size: 14px;
+	color: #999;
+}
+.cDesNum .quality span{
+	padding: 3px 15px;
+	border: 2px solid #e9e9e9;
+	color: #aaa;
+	font-size: 12px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.cDesNum .quality span.select{
+	color: #b1191a;
+	border: 2px solid #b1191a;
+}
+.cDesNum ul li{
+	float: left;
+	width: 23px;
+	height: 23px;
+	background: url(../images/public/star_bg.png) no-repeat center center;
+}
+.cDesNum ul li.select{
+	background: url(../images/public/star.png) no-repeat center center;
+}
+.cDesNum ul li.hover{
+	background: url(../images/public/star.png) no-repeat center center;
+}
+.toSuggest{
+	margin-top: 33px;
+	float: left;
+	width: 100%;
+	text-align: right;
+	font-size: 14px;
+	color: #999;
+	padding-right: 35px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.toSuggest a{
+	display: block;
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	top: 5px;
+	right: 0;
+	bottom: 0;
+	background: url(../images/usercenter/arrow_up.png) no-repeat right center;
+}
+.cDesPost{
+	float: right;
+}
+.cDesPost td{
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	color: #999;
+	padding: 0 5px;
+}
+.cDesPost tr:first-child td{
+	border-bottom: 1px solid #e9e9e9;
+}
+.anonymous{
+	position: absolute;
+	bottom: 55px;
+	left: 25px;
+	font-size: 14px;
+	color: #999;
+}
+.cDesBox .cDesSubmit{
+	display: block;
+	margin: 25px auto;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	background-color: #e4393c;
+}
+/*个人资料*/
+.infoTitle{
+	background: url(../images/usercenter/ico_info.png) no-repeat left center;
+}
+.infoBox{
+	width: 950px;
+
+}
+.infoBox h5{
+	color: #333;
+	font-weight: 500;
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	background-color: #e9e9e9;
+	padding-left: 20px;
+}
+.infoBox table{
+	width: 100%;
+}
+.infoBox table tr td{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.infoBox table tr td:first-child{
+	width: 165px;
+	text-align: right;
+	vertical-align: top;
+}
+.infoBox table td,.infoBox table a,.infoBox table input,.infoBox table span{
+	font-size: 14px;
+	color: #333;
+}
+.infoBox table input[type="text"]{
+	display: block;
+	height: 25px;
+	width: 380px;
+	border: 1px solid #ddd;
+	margin-top: 20px;
+}
+.infoBox table .tips{
+	font-size: 12px;
+	color: #999;
+	margin-top: 10px;
+}
+.infoBox .btnBox{
+	margin-top: 70px;
+	padding-top: 20px;
+	border-top: 1px solid #e7e7e7;
+}
+.infoBox .btnBox button{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 170px;
+	background-color: #e4393c;
+	color: #fff;
+	letter-spacing: 3px;
+	font-size: 14px;
+	cursor: pointer;
+}
+/*优惠卷*/
+.couponsTitle{
+	background: url(../images/usercenter/ico_coupons.png) no-repeat left center;
+}
+.couponsBox li{
+	float: left;
+	width: 300px;
+	height: 190px;
+	border: 1px solid #e9e9e9;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.couponsBox p.state{
+	margin-top: 20px;
+	text-align: right;
+}
+.couponsBox p.state span{
+	padding: 3px 20px;
+	font-size: 12px;
+	color: #fff;
+	background-color: #e4393c;
+}
+.couponsBox p.used span{
+	background-color: #ccc;
+}
+.couponsBox p.name{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 24px;
+	color: #ff6600;
+}
+.couponsBox p.name span{
+	font-size: 48px;
+}
+.couponsBox p.des{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #333;
+}
+/*我的收藏*/
+.favTitle{
+	background: url(../images/usercenter/ico_fav.png) no-repeat left center;
+}
+.favBox{
+	padding: 0 10px;
+}
+.favBox .list>li{
+	float: left;
+	width: 310px;
+	height: 440px;
+	border: 2px solid #fff;
+	padding: 20px;
+}
+.favBox .list>li:hover{
+	border: 2px solid #f3f3f3;
+}
+.favBox .list>li:hover .toCartBtn,.favBox .list>li:hover .delBtn,.favBox .list>li:hover .cartSucc{
+	display: block;
+}
+.favBox .fBTop{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.favBox .imgBox{
+	display: block;
+	width: 270px;
+	height: 270px;
+}
+.favBox .imgBox img{
+	width: 100%;
+	height: 100%;
+}
+.favBox .name,.favBox .price{
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 5px;
+}
+.favBox .starBox{
+	float: left;
+	width: 90px;
+	margin-top: 12px;
+}
+.favBox .toComment{
+	float: left;
+	font-size: 12px;
+	margin-top: 10px;
+	color: #999;
+}
+.favBox .starBox li{
+	width: 12px;
+	height: 12px;
+	float: left;
+	background: url(../images/usercenter/star_12_bg.png) no-repeat center center;
+}
+.favBox .starBox li.select{
+	background: url(../images/usercenter/star_12.png) no-repeat center center;
+}
+.favBox .toCartBtn{
+	padding-left: 12px;
+	background: url(../images/usercenter/cart.png) no-repeat 25px center #ff4a00;
+}
+.favBox .delBtn{
+	background-color: #ffdb3d;
+}
+.favBox .cartSucc{
+	display: block;
+	width: 255px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+	background-color: #90ce36;
+	margin: 15px auto 0;
+	display: none;
+}
+.favBox .toCartBtn,.favBox .delBtn{
+	float: left;
+	width: 115px;
+	height: 30px;
+	margin-top: 15px;
+	line-height: 30px;
+	color: #fff;
+	margin-left: 10px;
+	font-size: 13px;
+	display: none;
+	text-align: center;
+}
+/*地址管理*/
+.addTitle{
+	background: url(../images/usercenter/ico_add.png) no-repeat left center;
+}
+.addBox li{
+	float: left;
+	width: 300px;
+	height: 190px;
+	background-color: #fafafa;
+	border: 1px solid #e9e9e9;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 15px;
+}
+.addBox .addNew{
+	text-align: center;
+	padding-top: 40px;
+	height: 60px;
+	margin-top: 35px;
+	background: url(../images/usercenter/add.png) no-repeat center 4px;
+	color: #8c8c8c;
+}
+.addBox li h5{
+	color: #999;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.addBox li h5 span{
+	float: right;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 10px;
+	background-color: #dfdfdf;
+	color: #333;
+	font-weight: 500;
+	margin-top: 5px;
+}
+.addBox li p{
+	height: 25px;
+	line-height: 25px;
+	color: #8c8c8c;
+	margin: 5px auto;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.addBox li a{
+	padding: 3px 15px;
+	font-size: 12px;
+	color: #333;
+	border: 1px solid #e9e9e9;
+	margin-right: 10px;
+}
+/*积分管理*/
+.pointTitle{
+	background: url(../images/usercenter/ico_point.png) no-repeat left center;
+}
+.pointBox h3{
+	font-size: 24px;
+	color: #333;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.pointBox h3 span{
+	font-size: 36px;
+	color: #e4393c;
+}
+.pointBox table{
+	width: 100%;
+	border-left: 1px solid #f5f5f5;
+}
+.pointBox th{
+	background-color: #f5f5f5;
+	border-right: 1px solid #f5f5f5;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	color: #333;
+}
+.pointBox td{
+	border-right: 1px solid #f5f5f5;
+	border-bottom: 1px solid #f5f5f5;
+	height: 35px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+}
+.pointBox tr td:first-child{
+	color: #999;
+}
+/*兑换*/
+.pointExBox .category>div{
+	margin-bottom: 10px;
+}
+.pointExBox .category .title{
+	font-size: 14px;
+	color: #333;
+}
+.pointExBox .category li{
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	font-size: 12px;
+	margin-right: 3px;
+	text-align: center;
+	cursor: pointer;
+}
+.pointExBox .category li.select{
+	background-color: #e4393c;
+	color: #fff;
+}
+.pointExBox .pointGoods{
+	padding-top: 10px;
+}
+.pointExBox .pointGoods li{
+	float: left;
+	width: 227px;
+	height: 310px;
+	border: 1px solid #f2f2f2;
+	text-align: center;
+	background-color: #fff;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	-webkit-transition: background-color 0.8s;
+	-o-transition: background-color 0.8s;
+	transition: background-color 0.8s;
+}
+.pointExBox .pointGoods li:hover{
+	background-color: #e4393c;
+}
+.pointExBox .pointGoods li .name{
+	display: block;
+	font-size: 14px;
+	color: #333;
+	margin-top: 15px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	-webkit-transition: background-color 0.8s;
+	-o-transition: background-color 0.8s;
+	transition: background-color 0.8s;
+}
+.pointExBox .pointGoods li .price{
+	font-size: 12px;
+	color: #e4393c;
+	margin-top: 10px;
+	-webkit-transition: background-color 0.8s;
+	-o-transition: background-color 0.8s;
+	transition: background-color 0.8s;
+}
+.pointExBox .pointGoods li:hover .name{
+	color: #fff;
+}
+.pointExBox .pointGoods li:hover .price{
+	color: #fff;
+}
+.pointExBox .pointGoods .imgBox{
+	display: block;
+	width: 100%;
+	height: 230px;
+	border-bottom: 1px solid #f2f2f2;
+}
+.pointExBox .pointGoods .imgBox img{
+	width: 100%;
+	height: 100%;
+}
+/*积分兑换*/
+.pointDes .imgBox{
+	float: left;
+	width: 380px;
+	height: 460px;
+}
+.pointDes .mainImg{
+	display: block;
+	width: 100%;
+	height: 380px;
+	border: 1px solid #e6e6e6;
+}
+.pointDes .mainImg img{
+	width: 100%;
+	height: 100%;
+}
+.pointDes .sliderBox{
+	width: 100%;
+	height: 80px;
+	position: relative;
+	border: 1px solid #e6e6e6;
+	border-top: none;
+}
+.pointDes .sliderBox .arrow_l{
+	width: 15px;
+	height: 60px;
+	background: url(../images/usercenter/arrow_p_l.png) no-repeat center center;
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	cursor: pointer;
+}
+.pointDes .sliderBox .arrow_r{
+	width: 15px;
+	height: 60px;
+	background: url(../images/usercenter/arrow_p_r.png) no-repeat center center;
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+.pointDes .sliderBox .coverBox{
+	width: 300px;
+	height: 60px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	top: 10px;
+}
+.pointDes .coverBox ul{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.pointDes .coverBox li{
+	float: left;
+	margin-right: 10px;
+	width: 60px;
+	height: 60px;
+	border: 2px solid #e5e5e5;
+}
+.pointDes .coverBox li img{
+	width: 100%;
+	height: 100%;
+}
+.pointDes .coverBox li.select{
+	border: 2px solid #b30000;
+}
+.pointDes .txtBox{
+	float: left;
+	width: 570px;
+	height: 460px;
+	padding-left: 30px;
+	padding-top: 20px;
+	border: 1px solid #e5e5e5;
+	border-left: none;
+}
+.pointDes .txtBox h4{
+	font-size: 18px;
+	font-weight: 500;
+}
+.pointDes .txtBox .subTitle{
+	font-size: 12px;
+	color: #666;
+	line-height: 30px;
+}
+.pointDes .txtBox .priceBox{
+	height: 70px;
+	line-height: 70px;
+	width: 510px;
+	background-color: #e4393c;
+	padding: 0 15px 0 20px;
+}
+.pointDes .txtBox span{
+	font-size: 12px;
+}
+.pointDes .priceBox span{
+	color: #fff;
+}
+.pointDes .priceBox span.price{
+	font-size: 30px;
+}
+.pointDes .priceBox span.marketPrice{
+	float: right;
+	text-decoration: line-through;
+	color: #ccc;
+}
+.pointDes .txtBox .numb,.pointDes .txtBox .state,.pointDes .txtBox .numbBox{
+	padding-left: 20px;
+	margin-top: 20px;
+	color: #333;
+}
+.pointDes .numbBox span{
+	float: left;
+}
+.pointDes .numbBox input{
+	float: left;
+	width: 60px;
+	height: 30px;
+	border: 1px solid #999;
+	border-radius: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.pointDes .numBtn{
+	float: left;
+	width: 15px;
+	height: 30px;
+	position: relative;
+	margin-left: 4px;
+}
+.pointDes .numBtn i:first-child{
+	display: block;
+	width: 15px;
+	height: 13px;
+	border: 1px solid #e5e5e5;
+	background: url(../images/usercenter/numbarrow_up.png) no-repeat center center;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.pointDes .numBtn i:last-child{
+	display: block;
+	width: 15px;
+	height: 13px;
+	border: 1px solid #e5e5e5;
+	background: url(../images/usercenter/numbarrow_down.png) no-repeat center center;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.pointDes .txtBox .exBtn{
+	display: block;
+	width: 150px;
+	height: 40px;
+	margin-left: 20px;
+	margin-top: 40px;
+	background-color: #e4393c;
+	font-size: 16px;
+	color: #f5f5f5;
+	font-weight: 600;
+	border-radius: 3px;
+}
+.pointDes .txtBox .shareBox{
+	margin-top: 26px;
+    border-top: 1px solid #e5e5e5;
+    position: relative;
+    left: -30px;
+    right: -30px;
+    padding-top: 15px;
+    padding-left: 35px;
+}
+.pointDes .numbTitle{
+	padding-top: 5px;
+}
+.pointDes .desCon{
+	margin-top: 5px;
+	border: 1px solid #e5e5e5;
+}
+.pointDes .desConH{
+	height: 33px;
+	background-color: #f3f3f3;
+	border-bottom: 1px solid #e5e5e5;
+}
+.pointDes .desConH ul{
+	position: relative;
+	top: -2px;
+	left: -1px;
+}
+.pointDes .desConH li{
+	float: left;
+	width: 140px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 14px;
+	background-color: #fff;
+	color: #e4393c;
+}
+.pointDes .desConH li.select{
+	border-top: 2px solid #e4393c;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}
+.pointDes .desConB{
+	padding: 20px;
+}
+.pointDes .desConB table{
+	width: 100%;
+	font-size: 14px;
+	color: #666;
+	line-height: 22px;
+}
+.pointDes .desConB table{
+	margin-bottom: 20px;
+}
+/*退货*/
+.backTitle{
+	background: url(../images/usercenter/ico_back.png) no-repeat left center;
+}
+.backBox .bBH{
+	border: 1px solid #e5e5e5;
+	margin-bottom: 30px;
+}
+.backBox .bBH h5{
+	line-height: 45px;
+	padding-left: 15px;
+	font-size: 16px;
+	color: #ff4925;
+	border-bottom: 1px solid #ff4925;
+}
+.backBox .bBH p{
+	color: #333;
+	line-height: 45px;
+	padding-left: 15px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.backBox .tabBack{
+	width: 100%;
+	border: 1px solid #e5e5e5;
+}
+.backBox .tabBack th{
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	color: #333;
+	background-color: #fafafa;
+}
+.backBox .tabBack .orderNumb td{
+	padding-left: 15px;
+	font-size: 14px;
+	color: #666;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fafafa;
+	border-top: 1px solid #e5e5e5;
+}
+.backBox .tB td{
+	border-top: 1px solid #e5e5e5;
+}
+.backBox .tB .imgBox{
+	width: 115px;
+	padding: 15px;
+}
+.backBox .tB .imgBox a{
+	display: block;
+	width: 85px;
+	height: 85px;
+	border: 1px solid #e5e5e5;
+}
+.backBox .tB .imgBox a img{
+	width: 100%;
+	height: 100%;
+}
+.backBox .tB .name{
+	border-right: 1px solid #e5e5e5;
+}
+.backBox .tB .name a{
+	display: block;
+	width: 430px;
+	font-size: 14px;
+	color: #333;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.backBox .tB .time{
+	width: 95px;
+	border-right: 1px solid #e5e5e5;
+}
+.backBox .tB .time p{
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+}
+.backBox .tB .state{
+	width: 145px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	color: #999;
+	border-right: 1px solid #e5e5e5;
+}
+.backBox .tB .option{
+	width: 170px;
+}
+.backBox .tB .option a{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	margin: 0 auto;
+}
+.backBox .tB .option .toApply{
+	width: 120px;
+	line-height: 30px;
+	color: #fff;
+	background-color: #ff4a00;
+	margin-top: 10px;
+}
+.backBox .tB .option .toApply.applyed{
+	background-color: #ccc;
+}
+.page{
+	float: right;
+	margin: 25px auto;
+}
+.page li{
+	float: left;
+	width: 25px;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+.page li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.page li.select a,.page li:hover a{
+	color: #ff4925;
+}
+.page li.prev,.page li.next{
+	border: 1px solid #e5e5e5;
+}
+/*退货详情*/
+.tabDes{
+	border: 1px solid #e5e5e5;
+	width: 100%;
+}
+.tabDes th{
+	background-color: #fafafa;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #333;
+	padding-left: 15px;
+	text-align: left;
+}
+.tabDes tr td{
+	font-size: 14px;
+	padding: 15px 0;
+}
+.tabDes tr td:first-child{
+	color: #333;
+	font-weight: 600;
+	width: 140px;
+	text-align: right;
+	vertical-align: top;
+}
+.tabDes tr td:first-child i{
+	font-size: 16px;
+	margin-right: 3px;
+	position: relative;
+	top: 5px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.tabDes tr td:last-child{
+	color: #666;
+	width: 810px;
+	padding-left: 5px;
+}
+.tabDes .numbBox{
+	background-color: #eaeaea;
+	width: 120px;
+	height: 27px;
+	padding: 1px 0;
+}
+.tabDes .numbBox i{
+	float: left;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: #333;
+	cursor: pointer;
+}
+.tabDes .numbBox input{
+	float: left;
+	width: 70px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #fff;
+	text-align: center;
+}
+.tabDes .des textarea{
+	float: left;
+	width: 575px;
+	height: 100px;
+	border: 1px solid #e5e5e5;
+}
+.tabDes .des p{
+	float: left;
+	margin-left: 15px;
+	margin-top: 25px;
+	width: 180px;
+}
+.tabDes .address select{
+	width: 160px;
+	height: 25px;
+	border: 1px solid #e5e5e5;
+	padding-left: 5px;
+}
+.tabDes .address input{
+	width: 250px;
+	height: 25px;
+	border: 1px solid #e5e5e5;
+	padding-left: 5px;
+}
+.tabDes .person input{
+	width: 160px;
+	height: 25px;
+	border: 1px solid #e5e5e5;
+	padding-left: 5px;
+}
+.tabDes .cellNumb input{
+	width: 330px;
+	height: 25px;
+	border: 1px solid #e5e5e5;
+	padding-left: 5px;
+}
+.tabDes .subBtn{
+	padding-bottom: 50px;
+}
+.tabDes .subBtn button{
+	width: 160px;
+	height: 32px;
+	line-height: 32px;
+	background-color: #ff4b2a;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	cursor: pointer;
+}
+/*订单详情*/
+.orderDesTitle{
+	width: 500px;
+	background: url(../images/usercenter/myorder.png) no-repeat left center;
+}
+.titleBox .otr{
+	font-size: 14px;
+	color: #999;
+}
+.titleBox .nb{
+	font-weight: 500;
+}
+.orderDes table{
+	width: 100%;
+}
+.orderDes .tabInfo{
+	border: 1px solid #e5e5e5;
+}
+.orderDes .tabInfo th{
+	height: 40px;
+	line-height: 40px;
+	background-color: #fafafa;
+	padding-left: 15px;
+	font-size: 12px;
+	color: #333;
+}
+.orderDes .tabInfo td{
+	font-size: 12px;
+	color: #333;
+	border-top: 1px solid #e5e5e5;
+}
+.orderDes .tabInfo td.imgBox{
+	padding: 5px;
+	width: 90px;
+}
+.orderDes .tabInfo td.imgBox a{
+	display: block;
+	width: 80px;
+	height: 80px;
+}
+.orderDes .tabInfo td.imgBox a img{
+	width: 100%;
+	height: 100%;
+}
+.orderDes .tabInfo td.name a{
+	display: block;
+	width: 370px;
+	color: #333;
+}
+.orderDes .tabInfo td.numb{
+	width: 85px;
+	text-align: center;
+	border-right: 1px solid #e5e5e5;
+}
+.orderDes .tabInfo td.state{
+	width: 120px;
+	text-align: center;
+	border-right: 1px solid #e5e5e5;
+}
+.orderDes .tabInfo td.time{
+	width: 125px;
+	text-align: center;
+	border-right: 1px solid #e5e5e5;
+}
+.orderDes .tabInfo td.option{
+	width: 150px;
+	text-align: center;
+}
+.orderDes .tabInfo td.option a{
+	color: #333;
+}
+.stepBox{
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 30px;
+}
+.stepBox li{
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+.stepBox li p{
+	font-size: 12px;
+	margin-bottom: 3px;
+	color: #999;
+}
+.stepBox li p:first-child{
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #fff;
+	background-image: url(../images/usercenter/step.png);
+	background-color: #c3c3c3;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.stepBox li p.step_ed{
+	background-color: #e4393c;
+	background-image: url(../images/usercenter/step_ed.png);
+}
+.stepBox li p.step_ing{
+	background-color: #e4393c;
+	background-image: url(../images/usercenter/step_ing.png);
+}
+.stepBox li p.noBg{
+	background-image: none;
+}
+.mathBox{
+	padding: 30px;
+	border: 1px solid #e5e5e5;
+	border-top: none;
+}
+.mathBox p{
+	text-align: right;
+	line-height: 35px;
+	font-size: 14px;
+}
+.mathBox p span{
+	float: right;
+	width: 160px;
+	color: #ff4a00;
+}
+.mathBox p span.pay i{
+	font-size: 30px;
+	font-weight: 600;
+	margin-right: 5px;
+}
+.reInfo{
+	margin-top: 20px;
+	background-color: #fafafa;
+	padding: 30px;
+
+}
+.reInfo table+table{
+	margin-top: 25px;
+}
+.reInfo table th{
+	color: #8c8c8c;
+	font-size: 12px;
+	text-align: left;
+	padding-bottom: 10px;
+}
+.reInfo table td{
+	color: #333;
+	font-size: 12px;
+}
+.reInfo table tr td:first-child{
+	width: 70px;
+}
+.reInfo table tr td:last-child{
+	width: 720px;
+}

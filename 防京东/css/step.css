@@ -1,0 +1,398 @@
+/*cart*/
+.cart{
+	margin-top: 30px;
+	margin-bottom: 75px;
+}
+.cart h3{
+	font-size: 20px;
+	font-weight: 600;
+	color: #333;
+	margin-bottom: 10px;
+}
+.cart h3 span{
+	margin-left: 5px;
+	font-size: 12px;
+	color: #999;
+	font-weight: 500;
+}
+.cart .cartTab{
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	border-bottom: none;
+}
+.cart .cartTab th{
+	background-color: #fafafa;
+	padding: 8px 0;
+	text-align: center;
+	height: 30px;
+	font-size: 12px;
+	color: #666;
+	font-weight: 500;
+}
+.cart .cartTab th p{
+	border-left: 1px solid #e5e5e5;
+}
+.cart .cartTab th.checkAll{
+	text-align: left;
+	padding-left: 15px;
+}
+.cart .cartTab th.checkAll input{
+	margin: 0;
+}
+.cart .cartTab th.checkAll label{
+	position: relative;
+	top: -2px;
+	margin-left: 3px;
+}
+.cart .cartTab td{
+	border-bottom: 1px solid #e5e5e5;
+}
+.cart .cartTab .check{
+	width: 60px;
+}
+.cart .cartTab .check input{
+	float: right;
+	width: 25px;
+	height: 25px;
+	background: transparent;
+}
+.cart .cartTab .imgBox{
+	height: 140px;
+	width: 140px;
+	padding: 10px;
+}
+.cart .cartTab .imgBox a{
+	display: block;
+	width: 120px;
+	height: 120px;
+}
+.cart .cartTab .imgBox a img{
+	width: 100%;
+	height: 100%;
+}
+.cart .cartTab .name{
+	width: 555px;
+}
+.cart .cartTab .name a{
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #333;
+}
+.cart .cartTab .name p{
+	font-size: 12px;
+	color: #666;
+}
+.cart .cartTab .price{
+	width: 100px;
+	text-align: center;
+}
+.cart .cartTab .numb{
+	width: 200px;
+	text-align: center;
+}
+.cart .cartTab .color_r{
+	width: 95px;
+	text-align: center;
+}
+.cart .cartTab .option{
+	width: 50px;
+	text-align: center;
+}
+.cart .cartTab .numbBox{
+	width: 135px;
+	height: 30px;
+	border: 1px solid #e5e5e5;
+	margin: auto;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.cart .cartTab .numbBox input{
+	width: 70px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+}
+.cart .cartTab .numbBox i{
+	width: 30px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	cursor: pointer;
+}
+.cart .cartTab .numbBox i:first-child{
+	border-right: 1px solid #e5e5e5;
+}
+.cart .cartTab .numbBox i:last-child{
+	border-left: 1px solid #e5e5e5;
+}
+.cart .totalBox{
+	padding: 80px 65px 80px 0;
+	text-align: right;
+	font-size: 12px;
+}
+.cart .totalBox span{
+	color: #ff4a2d;
+}
+.cart .totalBox span.total{
+	font-size: 22px;
+	font-weight: 600;
+	margin-left: 20px;
+	margin-right: 5px;
+}
+.cart .btnLine{
+	background-color: #fafafa;
+	text-align: right;
+	padding: 20px 30px;
+}
+.cart .btnLine a{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	width: 150px;
+	text-align: center;
+}
+.cart .btnLine a.toShopping{
+	margin-right: 7px;
+	color: #333;
+	border: 1px solid #e5e5e5;
+}
+.cart .btnLine a.toPay{
+	color: #fff;
+	background-color: #b1191a;
+}
+
+/*submit*/
+.submit h3{
+	font-size: 16px;
+	color: #333;
+	padding: 25px 0;
+	font-weight: 500;
+}
+.submit .addBox li{
+	float: left;
+	width: 330px;
+	height: 180px;
+	border: 1px solid #e5e5e5;
+	padding: 15px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	position: relative;
+}
+.submit .addBox li.select{
+	background: url(../images/public/add_bg.png) no-repeat center center;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.submit .addBox li p{
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+.submit .addBox li p:first-child{
+	font-size: 16px;
+	line-height: 30px;
+}
+.submit .addBox li a{
+	position: absolute;
+	bottom: 35px;
+	right: 45px;
+	font-size: 14px;
+	color: #333;
+}
+.submit .addselectBox .addNew{
+	display: block;
+	width: 125px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	border: 1px solid #e5e5e5;
+}
+.submit .addselectBox{
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.listBox table{
+	width: 100%;
+	border: 1px solid #eee;
+}
+.listBox th{
+	height: 50px;
+	text-align: center;
+	background-color: #fafafa;
+	border-bottom: 1px solid #eee;
+}
+.listBox th.shopName{
+	text-align: left;
+	padding-left: 25px;
+	border-left: 3px solid #b61d1d;
+	font-size: 14px;
+	font-weight: 500;
+}
+.listBox td{
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+}
+.listBox td.checkBox{
+	width: 65px;
+}
+.listBox td.checkBox input{
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin: auto;
+}
+.listBox td.imgBox{
+	padding: 10px;
+	width: 160px;
+	height: 160px;
+}
+.listBox td.imgBox a{
+	display: block;
+	width: 140px;
+	height: 140px;
+}
+.listBox td.imgBox a img{
+	width: 100%;
+	height: 100%;
+}
+.listBox td.name{
+	width: 500px;
+}
+.listBox td.name a{
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-bottom: 10px;
+	color: #333;
+	text-align: left;
+}
+.listBox td.name p{
+	color: #999;
+	text-align: left;
+}
+.listBox td.postWay{
+	text-align: right;
+	height: 50px;
+	padding-right: 30px;
+	background-color: #fafafa;
+	border: 1px solid #eee;
+}
+.mathBox{
+	margin-top: 25px;
+	padding-top: 20px;
+	border: 1px solid #e5e5e5;
+	font-size: 16px;
+	margin-bottom: 70px;
+}
+.mathBox .couponsBox{
+	float: left;
+	min-width: 370px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+.mathBox .couponsBox .cpCheck_1_l,.mathBox .couponsBox .cpCheck_1_r{
+	float: left;
+	font-size: 16px;
+	margin-bottom: 20px;
+	line-height: 25px;
+}
+.mathBox .couponsBox .cpCheck_1_l{
+	width: 20px;
+	height: 20px;
+	margin-right: 15px;
+}
+.mathBox .selectBox{
+	padding: 15px 0 0;
+	border: 1px solid #e5e5e5;
+}
+.mathBox .selectBox input{
+	margin-left: 30px;
+}
+.mathBox .selectBox input,.mathBox .selectBox label{
+	float: left;
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+.mathBox .selectBox .confirmBox{
+	height: 52px;
+	width: 100%;
+	padding-top: 11px;
+	background-color: #fafafa;
+}
+.mathBox .selectBox .confirmBox .cancel{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	width: 120px;
+	border: 1px solid #e5e5e5;
+	text-align: center;
+	font-size: 15px;
+	margin-left: 60px;
+	color: #333;
+}
+
+.mathBox .selectBox .confirmBox .confirm{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	width: 120px;
+	border: 1px solid #ff4a00;
+	background-color: #ff4a00;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	margin-left: 10px;
+}
+.mathBox .right{
+	float: right;
+	width: 330px;
+	padding-top: 30px;
+	margin-right: 40px;
+}
+.mathBox .right p{
+	margin-bottom: 15px;
+	text-align: right;
+}
+.mathBox .right span{
+	float: right;
+	width: 120px;
+	text-align: left;
+}
+.mathBox .mBB{
+	height: 87px;
+	line-height: 87px;
+	background-color: #fafafa;
+}
+.mathBox .mBB .back{
+	padding-left: 40px;
+	color: #b61d1d;
+	font-size: 14px;
+}
+.mathBox .mBB .fr>p{
+	float: left;
+	margin-right: 40px;
+}
+.mathBox .mBB .fr>p span{
+	font-size: 22px;
+	color: #b1191a;
+}
+.mathBox .mBB .fr button{
+	width: 180px;
+	height: 65px;
+	line-height: 65px;
+	background-color: #b1191a;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	margin-right: 67px;
+	margin-top: 13px;
+}
