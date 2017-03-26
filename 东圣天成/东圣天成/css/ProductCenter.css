@@ -1,0 +1,84 @@
+.mid{
+    padding-bottom: 110px;
+    background: #F2F2F2;
+}
+.midnei{
+    padding: 0 20px 25px;
+    background: #fff;
+}
+.xilie{
+    height: 70px;
+    line-height: 70px;
+    overflow: hidden;
+}
+.jvxing{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    background: url("../images/ProductCenter/sprite.png")-36px 0 no-repeat;
+}
+.wenzi{
+    font-size: 28px;
+    color: #333333;
+    margin-left: 10px;
+}
+.ipt{
+    float: right;
+    width: 304px;
+    height: 70px;
+    position: relative;
+}
+.ipt input{
+    width: 285px;
+    height: 40px;
+    border: 2px solid #3E8ADD;
+    border-radius: 20px;
+    padding-left: 15px;
+    font-size: 18px;
+    outline: none;
+}
+.search{
+    position: absolute;
+    right: 15px;
+    top: 23px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/ProductCenter/sprite.png")-16px 0 no-repeat;
+}
+.zhanshi{
+    overflow: hidden;
+}
+.zslist{
+    width: 750px;
+    overflow: hidden;
+}
+.zslist li{
+    width: 345px;
+    height: 230px;
+    border: 1px solid #D9D9D9;
+    margin-right: 20px;
+    float: left;
+    position: relative;
+}
+.zslist .mar-bot{
+    margin-bottom: 30px;
+}
+.zslist li img{
+    width: 216px;
+    height: 216px;
+    margin: 7px 0 0 64px;
+}
+.imgxia{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 345px;
+    height: 40px;
+    background: rgba(103,171,244,0.9);
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}

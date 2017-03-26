@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<div id="wrap">
+    <div class="head">
+        <a href="javascript:;" class="fanhui"></a>
+        <p class="biaoti">注册</p>
+    </div>
+    <ul class="list">
+        <li>
+            <i class="gongsi"></i>
+            <input type="text" placeholder="公司名称">
+        </li>
+        <li>
+            <i class="shoujihao"></i>
+            <input type="text" placeholder="手机号">
+        </li>
+        <li>
+            <i class="xingming"></i>
+            <input type="text" placeholder="姓名">
+        </li>
+        <li>
+            <i class="mima"></i>
+            <input type="password" placeholder="密码">
+        </li>
+        <li>
+            <i class="mima"></i>
+            <input type="password" placeholder="再次输入密码">
+        </li>
+    </ul>
+    <div class="listxia">
+        <p class="yanzhengma">
+            <i class="yzm-icon"></i>
+            <input type="text" placeholder="输入验证码">
+        </p>
+        <a href="javascript:;" class="hqyzm">
+            获取验证码
+            <span class="daojishi">60s</span>
+        </a>
+    </div>
+    <a href="#" class="xyb">下一步</a>
+    <a href="#" class="xybxia">
+        已有账号？去<span class="denglu">登陆</span>
+    </a>
+</div>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/ort.js"></script>
+<script>
+    var hqyzm=document.getElementsByClassName('hqyzm')[0];
+    var djs=document.getElementsByClassName('daojishi')[0];
+    hqyzm.onclick= function () {
+        var n=60;
+        var time=null;
+        clearInterval(time);
+        time=setInterval(function () {
+            n--;
+            if(n<=0){
+                n=0;
+                clearInterval(time);
+            }
+            djs.innerHTML=n+'s';
+        },1000)
+    };
+</script>
+</body>
+</html>

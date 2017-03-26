@@ -1,0 +1,67 @@
+.mid{
+    padding-bottom: 110px;
+    background: #F2F2F2;
+}
+.datu img{
+    width: 750px;
+    height: 348px;
+}
+.wenben{
+    padding: 20px 39px 60px;
+    background: #fff;
+}
+.timu{
+    font-size: 28px;
+    color: #333333;
+    text-align: center;
+}
+.fbsj{
+    font-size: 18px;
+    color: #999999;
+    text-align: center;
+    margin: 5px 0 30px 0;
+}
+.duan{
+    font-size: 20px;
+    color: #666666;
+    text-indent: 40px;
+    line-height: 38px;
+}
+.midx{
+    overflow: hidden;
+    background: #fff;
+    padding: 0 39px 40px;
+}
+.midl{
+    float: left;
+}
+.midl a{
+    font-size: 16px;
+    color: #333333;
+    line-height: 26px;
+}
+.midr{
+    float: right;
+}
+.return{
+    width: 64px;
+    height: 26px;
+    display: inline-block;
+    background: #F5C269 url("../images/News/return.png")center 5px no-repeat;
+    padding-top: 38px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+}
+.shoucang{
+    width: 64px;
+    height: 26px;
+    display: inline-block;
+    background: #4DBFD7 url("../images/News/collected.png")center 9px no-repeat;
+    padding-top: 38px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+}

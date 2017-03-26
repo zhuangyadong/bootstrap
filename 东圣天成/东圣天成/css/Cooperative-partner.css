@@ -1,0 +1,48 @@
+.mid{
+    padding-bottom: 130px;
+    background: #F2F2F2;
+}
+.midnei{
+    background: #fff;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #D9D9D9;
+}
+.datu img{
+    width: 750px;
+    height: 348px;
+}
+.gsjieshao{
+    padding-left: 52px;
+    height: 60px;
+    border-bottom: 1px solid #D9D9D9;
+    line-height: 60px;
+    font-size: 26px;
+    color: #333333;
+    background: #fff url("../images/Us/hezuo.png")20px center no-repeat;
+}
+.list{
+    padding: 40px 20px 0;
+    overflow: hidden;
+}
+.list li{
+    width: 140px;
+    height: 161px;
+    float: left;
+    background: url("../images/index/duobian.png")0 0 no-repeat;
+    margin: 0 1px;
+}
+.list li img{
+    width: 128px;
+    height: 54px;
+    margin: 53px 0 0 6px;
+}
+.list .guai{
+    margin: -38px 1px 0 72px;
+}
+.list .shangtiao{
+    margin-top: -38px;
+}
+#list{
+    padding: 0 20px 40px;
+    margin-top: -37px;
+}

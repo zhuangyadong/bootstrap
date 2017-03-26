@@ -1,0 +1,40 @@
+.mid{
+    padding-bottom: 97px;
+    background: #F2F2F2;
+}
+.list li{
+    background: #fff;
+    height: 198px;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+    padding: 30px 20px;
+    overflow: hidden;
+    margin-bottom: 23px;
+}
+.list li img{
+    border-radius: 5px;
+    float: left;
+}
+.wenben{
+    float: left;
+    padding-left: 20px;
+    width: 444px;
+}
+.timu{
+    font-size: 28px;
+    color: #333333;
+    line-height: 55px;
+}
+.neirong{
+    font-size: 20px;
+    color: #666666;
+    line-height: 32px;
+    height: 96px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.shijian{
+    font-size: 18px;
+    color: #999999;
+    margin-top: 23px;
+}

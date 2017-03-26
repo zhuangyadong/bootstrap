@@ -1,0 +1,49 @@
+.mid{
+    padding-bottom: 110px;
+    background: #F2F2F2;
+}
+.datu img{
+    width: 750px;
+    height: 348px;
+}
+.gsjieshao{
+    padding-left: 52px;
+    height: 60px;
+    border-bottom: 1px solid #D9D9D9;
+    line-height: 60px;
+    font-size: 26px;
+    color: #333333;
+    background: #fff url("../images/Us/gsjieshao.png")20px center no-repeat;
+}
+.wenzi{
+    padding: 10px 33px 50px;
+    background: #fff;
+}
+.duan{
+    font-size: 20px;
+    color: #4D4D4D;
+    text-indent: 40px;
+    line-height: 33px;
+}
+.situ{
+    overflow: hidden;
+    background: #fff;
+    padding-bottom: 50px;
+}
+.situ li{
+    width: 125px;
+    height: 125px;
+    float: left;
+    margin: 0 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.situ li img{
+    width: 187px;
+    height: 130px;
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    margin-left: -65px;
+}

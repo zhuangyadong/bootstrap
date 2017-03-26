@@ -1,0 +1,195 @@
+#header{
+    line-height: 88px;
+    color: #fff;
+    padding-left: 40px;
+    overflow: hidden;
+    height: 88px;
+    background: #197FEE;
+}
+#header label{
+    font-size: 28px;
+    float: left;
+}
+#header .ipt{
+    width: 530px;
+    height: 66px;
+    border-radius: 30px/35px;
+    float: left;
+    margin: 3px 0 0 30px;
+    position: relative;
+}
+.search{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 25px;
+    left: 22px;
+    background: url("../images/index/sprite-index.png")0 0 no-repeat;
+}
+#header input{
+    width: 446px;
+    height: 66px;
+    background: #1970CF;
+    outline: none;
+    border: none;
+    border-radius: 30px/35px;
+    font-size: 24px;
+    padding: 0 75px;
+    color: #fff;
+}
+#header input::-webkit-input-placeholder{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Microsoft yahei";
+    text-align: center;
+}
+#header input:-ms-input-placeholder{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Microsoft yahei";
+    text-align: center;
+}
+#header input:-moz-placeholder{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Microsoft yahei";
+    text-align: center;
+}
+#header input::-moz-placeholder{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Microsoft yahei";
+    text-align: center;
+}
+.mid{
+    background: #F7F7F7;
+    padding-bottom: 110px;
+}
+.mid .lunbo img{
+    width: 750px;
+    height: 348px;
+}
+.mid .lunbo li{
+    width: 16px;
+    height: 16px;
+}
+.row{
+    height: 70px;
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    line-height: 70px;
+    padding: 0 20px;
+    overflow: hidden;
+    background: #fff;
+}
+.row span{
+    font-size: 28px;
+    color: #333333;
+    padding-left: 60px;
+}
+.jiantou{
+    width: 30px;
+    height: 42px;
+    float: right;
+    background: url("../images/index/sprite-index.png")0 -340px no-repeat;
+    margin-top: 18px;
+}
+.caidan{
+    padding: 30px 10px;
+    overflow: hidden;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.caidan li{
+    overflow: hidden;
+    float: left;
+    padding: 5px 73px;
+    border-right: 1px solid #E5E5E5;
+}
+.caidan a{
+    display: block;
+    color: #666666;
+    font-size: 24px;
+    text-align: left;
+    line-height: 50px;
+}
+.caidan a i{
+    width: 84px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+.caidan a div{
+    height: 60px;
+}
+.list{
+    padding:0 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-bottom: 1px solid #E0E0E0;
+}
+.list li{
+    padding: 32px 0 35px;
+    border-bottom: 1px solid #E0E0E0;
+    overflow: hidden;
+}
+.list li img{
+    width: 246px;
+    height: 199px;
+    float: left;
+}
+.info{
+    float: left;
+    margin-left: 20px;
+}
+.info p{
+    width: 444px;
+}
+.biaoti{
+    font-size: 28px;
+    width: 444px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 55px;
+}
+.neirong{
+    font-size: 20px;
+    width: 444px;
+    height: 105px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #666666;
+    line-height: 32px;
+}
+.shijian{
+    color: #999999;
+    font-size: 18px;
+    margin-top: 17px;
+}
+.tubiao{
+    padding: 30px 20px;
+    overflow: hidden;
+    background: #fff;
+}
+.tubiao li{
+    float: left;
+    width: 140px;
+    height: 121px;
+    margin: 1px;
+    background: url("../images/index/duobian.png")0 0 no-repeat;
+    padding-top: 40px;
+}
+.tubiao li a{
+    display: block;
+    width: 140px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+.tubiao li img{
+    width: 128px;
+    height: 54px;
+    margin-top: 15px;
+}

@@ -1,0 +1,98 @@
+.mid{
+    width: 750px;
+    height: 1206px;
+    background: url("../images/ProductCenter/bg.png")0 0 no-repeat;
+    background-clip: content-box;
+    position: relative;
+}
+.wxts{
+    padding: 33px 0 0 26px;
+    font-size: 28px;
+    color: #FF6F02;
+}
+.icon-wx{
+    width: 29px;
+    height: 23px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    background: url("../images/ProductCenter/sprite-Notlogged.png")-24px -28px no-repeat;
+}
+.jieshu{
+    font-size: 26px;
+    color: #333333;
+    width: 596px;
+    margin: 25px auto 0;
+}
+.list{
+    margin: 40px auto 0;
+    width: 600px;
+}
+.list li{
+    width: 600px;
+    height: 80px;
+    margin-top: 40px;
+    position: relative;
+}
+.list li input{
+    width: 526px;
+    height: 86px;
+    border: 2px solid #197FEE;
+    font-size: 26px;
+    color: #666666;
+    border-radius: 40px;
+    padding-left: 70px;
+    background: rgba(255,255,255,.1);
+    outline: none;
+}
+.list li input::-webkit-input-placeholder{
+    color: #666666;
+}
+.list li input:-ms-input-placeholder{
+    color: #666666;
+}
+.list li input:-moz-placeholder{
+    color: #666666;
+}
+.list li input::-moz-placeholder{
+    color: #666666;
+}
+.gongsi{
+    width: 22px;
+    height: 28px;
+    position: absolute;
+    left: 34px;
+    top: 33px;
+    background: url("../images/ProductCenter/sprite-Notlogged.png")0 0 no-repeat;
+}
+.shoujihao{
+    width: 24px;
+    height: 24px;
+    background: url("../images/ProductCenter/sprite-Notlogged.png")0 -28px no-repeat;
+    position: absolute;
+    left: 34px;
+    top: 33px;
+}
+.denglu{
+    width: 24px;
+    height: 26px;
+    background: url("../images/ProductCenter/sprite-Notlogged.png")-22px 0 no-repeat;
+    position: absolute;
+    left: 34px;
+    top: 33px;
+}
+.sub{
+    width: 600px;
+    height: 80px;
+    background: #197FEE;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 28px;
+    line-height: 80px;
+    text-align: center;
+    margin: 383px auto 0;
+    display: block;
+}

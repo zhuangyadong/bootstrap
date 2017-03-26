@@ -1,0 +1,77 @@
+.mid{
+    padding-bottom: 110px;
+    background: #F2F2F2;
+}
+.midnei{
+    background: #fff;
+}
+.img{
+    width: 750px;
+    height: 348px;
+    overflow: hidden;
+}
+.img img{
+    width: 750px;
+    height: 348px;
+}
+.fangshi{
+    height: 716px;
+    padding: 10px 0 0 48px;
+}
+.fangshi li{
+    margin-top: 40px;
+    font-size: 24px;
+    color: #303233;
+    position: relative;
+}
+.fangshi li span{
+    position: absolute;
+    left: 45px;
+    top: 0;
+}
+.dianhua{
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    background: url("../images/Us/sprite-con.png")0 -28px no-repeat;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+.dizhi{
+    width: 22px;
+    height: 28px;
+    display: inline-block;
+    background: url("../images/Us/sprite-con.png")0 0 no-repeat;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+.youxiang{
+    width: 25px;
+    height: 19px;
+    display: inline-block;
+    background: url("../images/Us/sprite-con.png")-23px -28px no-repeat;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+.wangzhi{
+    width: 35px;
+    height: 27px;
+    display: inline-block;
+    background: url("../images/Us/sprite-con.png")-22px 0 no-repeat;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    left: -3px;
+}
+.gj-youxiang{
+    width: 25px;
+    height: 18px;
+    display: inline-block;
+    background: url("../images/Us/sprite-con.png")-48px -28px no-repeat;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}

@@ -1,0 +1,58 @@
+.mid{
+    padding-bottom: 110px;
+    background: #F2F2F2;
+}
+.midnei{
+    padding: 0 20px 25px;
+    background: #fff;
+}
+.xilie{
+    height: 70px;
+    line-height: 70px;
+    overflow: hidden;
+}
+.jvxing{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    background: url("../images/ProductCenter/sprite.png")-36px 0 no-repeat;
+}
+.wenzi{
+    font-size: 28px;
+    color: #333333;
+    margin-left: 10px;
+}
+.tuzi{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.tu{
+    width: 353px;
+    height: 228px;
+    border: 1px solid #D9D9D9;
+    float: left;
+}
+.tu img{
+    width: 216px;
+    height: 216px;
+    margin: 6px 0 0 70px;
+}
+.zi{
+    width: 340px;
+    height: 230px;
+    background: #3382D7;
+    float: left;
+    padding-left: 15px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    text-indent: 20px;
+}
+.duan{
+    color: #4D4D4D;
+    font-size: 20px;
+    text-indent: 40px;
+    line-height: 40px;
+}
